@@ -1,0 +1,138 @@
+:root{
+    --first0:#dcdee3;
+    --first1:#1098ed;
+    --first2:#f7f7f7;
+    --first3:#444;
+    --first4:#ff4500;
+    --first5:#96f2d7;
+    --first6:#38d9a9;
+    --first7:#69db7c;
+    --first8:#b2f2bb;
+    --first9:#20c997;
+    --first10:#087f5b;
+    --second0:#22b8cf;
+    --second1:#0b7285;
+    --second2:#1098ad;
+    --second3:#3cb9db;
+    --second4:#99e9f2;
+    --second5:#c5f6fa;
+    --second6:#1864ab;
+    --second7:#339af0;
+    --second8:#4dabf7;
+    --second9:#d0ebff;
+    --second10:#bac8ff;
+    --second11:#9775fa;
+    --second12:#b197fc;
+    --second13:#d0bfff;
+    --second14:#862e9c;
+    --second15:#cc5de8;
+    --second16:#be4bdb;
+    --second17: #da77f2;
+    --second18:#e599f7;
+    --second19:#f06595;
+    --second20: #a61e4d;
+    --third1:#faa2c1;
+    --third2:#f783ac;
+    --third3:#c92a2a;
+    --third3:#ff8787;
+    --third3:#ffa8a8;
+    --third3:#adb5bd;
+    --third3:#868e96;
+    --third3:#212529;
+    --third3:#ced4da;
+    --third3:#e9ecef;
+    --third3:#343a40;
+    --third3:#495057;
+
+}
+/*spacing system ------ : 2 4 8 12 16 24 32 48 64 80 96 80:--
+font-size system------:10 12 24 16 18 20 24 30 36 44 52 
+                         62 74 86 98:---*/
+/* h1 latter-spacing -1px*/
+/* default valu for font 16px
+we decrease line height in big size (1.1) and increase line height 
+in small size font(1.5)
+-----------------------
+color:
+red:for attention
+orange:convey happiness
+yallow:mean brightness and intelligence
+green:mean health growth
+blue:associated with peace and profssionalism
+purple:convey wealth wisdom magic
+pink:represent romance , care ,affection
+brown:associated with nature and comfort
+black:symbolize power elegance
+color system:1-main color for draw attention like buttons/2-grey color/3-accent color
+-------------------------
+white space:
+between section: 190px 160px 140px
+between groups:152px 96px 24px
+-varticaly>horizantol
+-the text belongs to icons so they dot't have need for space
+-small text and imgs less space and big text and imags lot of white space neded
+---------------------------------
+-header-height:9.6rem
+-section-padding:9.6rem
+-cad width:75%
+-card border raduce:11px
+-for circle item we use equal width 
+and height like 2rem for both
+use overflow in pareant element
+----------------------------------
+input padding:1.2rem
+width:100%
+--------------------------------------
+// Global Styles 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+  }
+  
+  h2 {
+    font-size: 46px;
+    line-height: 54px;                                             thinks for waching
+    color: #222;
+  }
+  
+  h4 {
+    font-size: 20px;
+    color: #222;
+  }
+  
+  h6 {
+    font-weight: 700;
+    font-size: 12px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+  }
+  
+  .section-p1 {
+    padding: 40px 80px;
+  }
+  
+  .section-m1 {
+    margin: 40px 0;
+  }
+  
+  body {
+    width: 100%;
+  }

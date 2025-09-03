@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .about-section {
+    padding: 4rem 2rem;
+    background: linear-gradient(to right, #f0f4f8, #eaf2f8);
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .about-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  
+  .about-text {
+    flex: 1;
+  }
+  .secbtn{
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #308af2;
+    color: white;
+    margin-left: 1rem;
+  }
+  .about-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-text p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  .whatsapp-button {
+
+    align-items: center;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .whatsapp-button:hover {
+    background-color: #1EBE54;
+  }
+
+  .whatsapp-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    fill: white;
+  }
+
+  .whatsapp-text {
+    color: white;
+  }
+  
+  
+  .about-text button:hover {
+    background-color: #005fcb;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  .secbtn{
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+    .about-text h1 {
+      font-size: 2rem;
+    }
+  
+    .about-text p {
+      font-size: 1rem;
+    }
+  }
+  
